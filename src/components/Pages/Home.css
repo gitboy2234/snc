@@ -1,0 +1,14 @@
+@keyframes zoom {
+    0% {
+        transform: scale(1); /* Start at normal size */
+    }
+    100% {
+        transform: scale(
+            1.3
+        ); /* Scale up to 1.1 times the original size and stay there */
+    }
+}
+
+.zoom-effect {
+    animation: zoom 10s forwards;
+}
